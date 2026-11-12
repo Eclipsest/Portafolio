@@ -537,10 +537,11 @@ main {
 
 .tarjeta__imagen {
     width: 100%;
-    height: 150px;
+    height: 250px;
 
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
+    background-color: var(--fondo);
 
     border: 1px solid var(--borde);
     border-radius: 3px;
